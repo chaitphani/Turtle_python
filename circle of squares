@@ -1,0 +1,13 @@
+import turtle
+
+myne=turtle.Turtle()
+myne.speed(0)
+
+def square(length, angle):
+    for i in range(4):
+        myne.fd(length)
+        myne.right(angle)
+
+for i in range(100):
+    square(100, 90)
+    myne.right(11)
