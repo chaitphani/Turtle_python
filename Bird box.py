@@ -45,3 +45,5 @@ bird.end_fill()
 bird.hideturtle()
 
 wn.exitonclick()
+
+print('------successfully Done--------')
